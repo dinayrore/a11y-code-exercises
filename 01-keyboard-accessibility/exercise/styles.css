@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #c6e4cc;
+  color: #000c02;
+  padding: 1rem 0;
+  background: #c6e4cc;
+  color: #000c02;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure the header stays above other content */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+nav a {
+  color: #000c02;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.hero {
+  background: url("hero.jpg") no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product {
+  background: #f4f4f4;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+footer {
+  background: #c6e4cc;
+  color: #000c02;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #000c02;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
