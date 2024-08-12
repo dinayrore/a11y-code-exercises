@@ -7,9 +7,9 @@
     <title>Bubble Tea</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#home" class="logo">Bubble Tea</a>
+    <header class="header">
+      <nav class="nav">
+        <a class="nav logo" href="#home" class="logo">Bubble Tea</a>
         <ul>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#products">Order</a></li>
@@ -21,48 +21,78 @@
 
     <main id="home">
       <section class="hero">
-        <h1>Welcome to Bubble Tea</h1>
-        <p>Your one-stop shop for the finest coffee and tea.</p>
+        <h1 class="hero-h1">Welcome to Bubble Tea</h1>
+        <p>Your one-stop shop for the finest bubble tea and cuisine.</p>
       </section>
 
-      <section id="products">
-        <h2>Featured Products</h2>
+      <h2>Menu</h2>
+      <section id="menu">
         <article class="product">
-          <h3>Premium Coffee</h3>
-          <p>Experience the rich and bold flavors of our premium coffee.</p>
+          <img src="images/onigiri.jpg" alt="Onigiri" />
+          <h2>Onigiri</h2>
+          <p>Delicious rice balls with various fillings.</p>
+          <p>Price: $3.00</p>
         </article>
         <article class="product">
-          <h3>Organic Tea</h3>
-          <p>Enjoy the soothing and refreshing taste of our organic tea.</p>
+          <img src="images/bubble-tea.jpg" alt="Bubble Tea" />
+          <h2>Bubble Tea</h2>
+          <p>Delicious bubble tea with tapioca pearls.</p>
+          <p>Price: $5.00</p>
+        </article>
+        <article class="product">
+          <img src="images/matcha-latte.jpg" alt="Matcha Latte" />
+          <h2>Matcha Latte</h2>
+          <p>Refreshing matcha latte with a hint of sweetness.</p>
+          <p>Price: $4.50</p>
+        </article>
+        <article class="product">
+          <img src="images/fruit-tea.jpg" alt="Fruit Tea" />
+          <h2>Fruit Tea</h2>
+          <p>Fruity and refreshing tea with real fruit pieces.</p>
+          <p>Price: $4.00</p>
+        </article>
+        <article class="product">
+          <img src="images/takoyaki.jpg" alt="Takoyaki" />
+          <h2>Takoyaki</h2>
+          <p>Delicious octopus balls with savory sauce.</p>
+          <p>Price: $6.00</p>
         </article>
       </section>
 
       <section id="about">
         <h2>About Us</h2>
         <p>
-          At Bubble Tea, we are passionate about providing the best coffee and
-          tea to our customers. Our products are sourced from the finest growers
-          around the world.
+          We are passionate about bringing you the best bubble tea experience.
         </p>
       </section>
-    </main>
 
-    <footer id="contact">
-      <h2>Contact Us</h2>
-      <address>
-        <p>
-          Email:
-          <a href="mailto:info@coffeeandteahaven.com"
-            >info@coffeeandteahaven.com</a
-          >
-        </p>
-        <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
-      </address>
-      <div class="social-media">
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div>
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+
+      <footer id="footer">
+        <div class="social-media">
+          <img src="../../public/facebook-icon.svg" alt="Facebook Icon" />
+          <img src="../../public/instagram-icon.svg" alt="Instagram Icon" />
+        </div>
       </div>
-    </footer>
+    </main>
   </body>
 </html>
