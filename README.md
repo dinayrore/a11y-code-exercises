@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains a collection of accessibility code exercises. Each exercise focuses on a specific aspect of web accessibility and provides a hands-on opportunity to practice implementing accessible solutions.
+A collection of accessibility code exercises. Each exercise focuses on a specific aspect of web accessibility providing hands-on opportunities to practice identifying anti-patterns and implementing accessible solutions.
 
 ## Getting Started
 
@@ -10,17 +10,27 @@ To get started with the exercises, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/dinayrore/a11y-code-exercises.git`
 2. Navigate to the project directory: `cd a11y-code-exercises`
+3. Open the exercise directory HTML file either in the browser to inspect the DOM or in the IDE of your choice (Preferred IDE: VS Code).
 
 ## Exercises
 
-### Exercise 1: Semantic HTML
+### Exercise 1: Keyboard Accessibility
 
-In this exercise, you will learn how to use semantic HTML elements to improve the accessibility and structure of your web pages.
+In this exercise, you will explore techniques for making your web pages keyboard accessible, ensuring that users can navigate and interact with your content using only a keyboard. All interactive elements (links, buttons, and articles) are accessible via keyboard navigation with clear focus indicators for all interactive elements to improve usability for keyboard users.
 
-### Exercise 2: Keyboard Accessibility
+### Exercise 2: Semantic HTML
 
-In this exercise, you will explore techniques for making your web pages keyboard accessible, ensuring that users can navigate and interact with your content using only a keyboard.
+In this exercise, you will learn how to use semantic HTML elements to improve the accessibility and structure of your web pages. Proper use of semantic HTML elements like <header>, <nav>, <main>, <section>, <article>, and <footer> to improve accessibility and SEO.
 
 ### Exercise 3: ARIA Roles and Attributes
 
-In this exercise, you will learn how to use ARIA roles and attributes to enhance the accessibility of your web applications.
+In this exercise, you will learn how to use ARIA roles and attributes to enhance the accessibility of your web applications and screen reader support.
+
+### Exercise 4: Images
+
+Responsive Design: The layout is responsive, ensuring usability on various devices.
+Alt Text: Descriptive alt text for images to support screen readers.
+
+### Exercise 5: Tables
+
+### Exercise 6: Forms

@@ -3,96 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Bubble Tea</title>
+    <title>Boutique Hotel</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
-    <header class="header">
-      <nav class="nav">
-        <a class="nav logo" href="#home" class="logo">Bubble Tea</a>
+    <header>
+      <nav>
         <ul>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="#products">Order</a></li>
-          <li><a href="#about">About Us</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#accessibility">Accessibility</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-
-    <main id="home">
-      <section class="hero">
-        <h1 class="hero-h1">Welcome to Bubble Tea</h1>
-        <p>Your one-stop shop for the finest bubble tea and cuisine.</p>
-      </section>
-
-      <h2>Menu</h2>
-      <section id="menu">
-        <article class="product">
-          <img src="images/onigiri.jpg" alt="Onigiri" />
-          <h2>Onigiri</h2>
-          <p>Delicious rice balls with various fillings.</p>
-          <p>Price: $3.00</p>
-        </article>
-        <article class="product">
-          <img src="images/bubble-tea.jpg" alt="Bubble Tea" />
-          <h2>Bubble Tea</h2>
-          <p>Delicious bubble tea with tapioca pearls.</p>
-          <p>Price: $5.00</p>
-        </article>
-        <article class="product">
-          <img src="images/matcha-latte.jpg" alt="Matcha Latte" />
-          <h2>Matcha Latte</h2>
-          <p>Refreshing matcha latte with a hint of sweetness.</p>
-          <p>Price: $4.50</p>
-        </article>
-        <article class="product">
-          <img src="images/fruit-tea.jpg" alt="Fruit Tea" />
-          <h2>Fruit Tea</h2>
-          <p>Fruity and refreshing tea with real fruit pieces.</p>
-          <p>Price: $4.00</p>
-        </article>
-        <article class="product">
-          <img src="images/takoyaki.jpg" alt="Takoyaki" />
-          <h2>Takoyaki</h2>
-          <p>Delicious octopus balls with savory sauce.</p>
-          <p>Price: $6.00</p>
-        </article>
-      </section>
-
-      <section id="about">
-        <h2>About Us</h2>
-        <p>
-          We are passionate about bringing you the best bubble tea experience.
-        </p>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" />
-          </div>
-          <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" />
-          </div>
-          <div>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
-          </div>
-          <div>
-            <button type="submit">Send</button>
-          </div>
-        </form>
-      </section>
-
-      <footer id="footer">
-        <div class="social-media">
-          <img src="../../public/facebook-icon.svg" alt="Facebook Icon" />
-          <img src="../../public/instagram-icon.svg" alt="Instagram Icon" />
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>Welcome to Our Boutique Hotel</h1>
+          <p>
+            Experience luxury and unique charm at our stylish and modern hotel.
+          </p>
+          <a href="#rooms" class="btn">Explore Rooms</a>
         </div>
-      </div>
+      </section>
+      <section class="container my-5">
+        <h2 class="text-center">Why Stay With Us?</h2>
+        <p class="text-center lead">
+          Inclusivity Haven Hotel offers a seamless blend of comfort, style, and
+          accessibility.
+        </p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/switzerland/gstaad/huus-gstaad-switzerland.jpg"
+                class="card-img-top"
+                alt="Luxury Suite"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Luxury Suite</h5>
+                <p class="card-text">
+                  Experience unmatched luxury in our spacious suites.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/switzerland/gstaad/huus-gstaad-switzerland.jpg"
+                class="card-img-top"
+                alt="Deluxe Room"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Deluxe Room</h5>
+                <p class="card-text">
+                  Comfort and style combined for a perfect stay.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/switzerland/gstaad/huus-gstaad-switzerland.jpg"
+                class="card-img-top"
+                alt="Standard Room"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Standard Room</h5>
+                <p class="card-text">
+                  All the essentials for a comfortable experience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <p>&copy; 2024 Boutique Hotel. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
