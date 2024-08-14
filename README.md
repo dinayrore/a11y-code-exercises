@@ -10,7 +10,9 @@ To get started with the exercises, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/dinayrore/a11y-code-exercises.git`
 2. Navigate to the project directory: `cd a11y-code-exercises`
-3. Open the exercise directory HTML file either in the browser to inspect the DOM or in the IDE of your choice (Preferred IDE: VS Code).
+3. Open your project in Visual Studio Code.
+4. Install the Live Server recommended extension from Visual Studio Code marketplace.
+5. Right-click on the `home.html` file and select "Open with Live Server". This will start a local web server and open the `home.html` file in your default browser.
 
 ## Exercises
 
