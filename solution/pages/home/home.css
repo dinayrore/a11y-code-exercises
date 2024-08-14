@@ -14,18 +14,23 @@
   padding: 0;
 }
 
+.link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .feature-box {
-  flex: 1;
+  position: relative;
+  width: 33.33vw;
+  min-height: 300px;
+  transition: background-color 0.3s ease; /* Smooth transition for the hover effect */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-width: 200px;
-  min-height: 300px;
   background-size: cover;
   background-position: center;
-  color: white;
-  position: relative; /* Ensure the pseudo-element is positioned relative to the .feature-box */
   overflow: hidden; /* Hide any overflow from the pseudo-element */
 }
 
