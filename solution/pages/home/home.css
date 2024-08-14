@@ -49,6 +49,7 @@
   margin: 0;
   font-size: 50px;
   color: white;
+  font-family: regular;
 }
 
 .feature-box p {
@@ -56,6 +57,24 @@
   bottom: 10px;
   left: 20px;
   margin: 0;
+}
+
+.feature-box hr {
+  z-index: 2; /* Ensure the text is above the overlay */
+  border: none; /* Remove the default border */
+  border-top: 2px solid white; /* Set the top border to white */
+  width: 50px; /* Adjust the width as needed */
+  margin: 10px 0 0 0; /* Adjust the margin to position it correctly */
+}
+
+.feature-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+.feature-box:hover {
+  z-index: 3; /* Ensure the feature box is above other feature boxes */
+  transform: scale(1.025); /* Slightly scale up the feature box */
+  box-shadow: 0 4px 8px rgba(225, 225, 225, 0.75); /* Add a subtle shadow */
 }
 
 .feature-box.stay {
