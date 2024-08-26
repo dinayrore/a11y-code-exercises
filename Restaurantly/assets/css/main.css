@@ -625,6 +625,7 @@ h6 {
   font-family: var(--heading-font);
 }
 
+/* Target size - make the social icons tiny (click area smaller than 44pt by 44pt) */
 .footer .social-links a {
   display: flex;
   align-items: center;
@@ -633,7 +634,7 @@ h6 {
   height: 40px;
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
-  font-size: 16px;
+  font-size: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin-right: 10px;
   transition: 0.3s;
@@ -1604,12 +1605,13 @@ section,
   font-size: 13px;
 }
 
+
 .chefs .member .social {
   position: absolute;
   left: 0;
   bottom: -38px;
   right: 0;
-  height: 48px;
+  height: 28px;
   transition: bottom ease-in-out 0.4s;
   text-align: center;
 }
