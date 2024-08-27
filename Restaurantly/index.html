@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Non Accessible Site</title>
+  <title>Index -  AAA Accessible</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -40,6 +40,20 @@
 
   <header id="header" class="header fixed-top">
 
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
+        </div>
+        <div class="languages d-none d-md-flex align-items-center">
+          <ul>
+            <li>En</li>
+            <li><a href="#">De</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
 
     <div class="branding d-flex align-items-cente">
 
@@ -91,32 +105,32 @@
 
   <main class="main">
 
-<!-- Hero Section -->
+    <!-- Hero Section -->
 <section id="hero" class="hero section dark-background">
 
-    <!-- Added an image with no alt attribute -->
-    <img src="https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" data-aos="fade-in">
-  
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
-          <h2 data-aos="fade-up" data-aos-delay="100">Welcome to <span>Inclusive Perk</span></h2>
-          <p data-aos="fade-up" data-aos-delay="200">Our mission is to create a space so people can come together, enjoy exceptional coffee, and feel at home, regardless of their abilities.</p>
-          <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
-            <a href="#menu" class="cta-btn">Our Menu</a>
-            <a href="#book-a-table" class="cta-btn">Book a Table</a>
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
-          <!-- Poor alt text for the link image -->
-          <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn">
-            <img src="https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Play">
-          </a>
+  <!-- Added descriptive alt text to the image -->
+  <img src="https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A cozy coffee shop interior with people enjoying their drinks" data-aos="fade-in">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 d-flex flex-column align-items-center align-items-lg-start">
+        <h2 data-aos="fade-up" data-aos-delay="100">Welcome to <span>Inclusive Perk</span></h2>
+        <p data-aos="fade-up" data-aos-delay="200">Our mission is to create a space where people can come together, enjoy exceptional coffee, and feel at home, regardless of their abilities.</p>
+        <div class="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="#menu" class="cta-btn">Our Menu</a>
+          <a href="#book-a-table" class="cta-btn">Book a Table</a>
         </div>
       </div>
+      <div class="col-lg-4 d-flex align-items-center justify-content-center mt-5 mt-lg-0">
+        <!-- Added descriptive alt text for the link image -->
+        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn">
+          <img src="https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Play video about Inclusive Perk Coffee Shop">
+        </a>
+      </div>
     </div>
-  
-  </section><!-- /Hero Section -->
+  </div>
+
+</section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -147,6 +161,119 @@
       </div>
 
     </section><!-- /About Section -->
+
+<!-- Table of Coffee Blednds -->
+ 
+<div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1> Our Blends</h1>
+
+          <div class="card">
+              <div class="card-body">
+                  <div class="active-member">
+                      <div class="table-responsive">
+                          <table class="table table-xs mb-0">
+                              <thead>
+                                  <tr>
+                                      <th>Name</th>
+                                      <th>Origin</th>
+                                      <th>Taste Profile</th>
+                                      <th>Roast</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td><img src="./images/avatar/1.jpg" class=" rounded-circle mr-3" alt="">Bellissimi Fiori</td>
+                                      <td>Arabica (blend of beans harvested in Guatemala and Brazil)</td>
+                                      <td>
+                                          <span>Bright, citrusy, floral, apple, acidic</span>
+                                      </td>
+                                      <td>
+                                          <div>
+                                              <div class="progress" style="height: 6px">
+                                                  <div class="progress-bar bg-success" style="width: 50%"></div>
+                                              </div>
+                                          </div>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td><img src="./images/avatar/2.jpg" class=" rounded-circle mr-3" alt="">Campagna Caffè	</td>
+                                      <td>Arabica (single origin harvested in Ethiopia)	</td>
+                                      <td><span>Chocolaty, sweet, caramel	</span></td>
+                                      <td>
+                                          <div>
+                                              <div class="progress" style="height: 6px">
+                                                  <div class="progress-bar bg-success" style="width: 50%"></div>
+                                              </div>
+                                          </div>
+                                      </td>
+                                    
+                                  </tr>
+                                  <tr>
+                                      <td><img src="./images/avatar/3.jpg" class=" rounded-circle mr-3" alt="">Cuore Forte	</td>
+                                      <td>Robusta (blend of beans harvested in Brazil and Indonesia)	</td>
+                                      <td><span>Dark chocolate, almonds, whiskey	</span></td>
+                                      <td>
+                                          <div>
+                                              <div class="progress" style="height: 6px">
+                                                  <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                              </div>
+                                          </div>
+                                      </td>
+                                  
+                                  </tr>
+                                  <tr>
+                                      <td><img src="./images/avatar/6.jpg" class=" rounded-circle mr-3" alt=""> Eleganza</td>
+                                      <td>Excelsa (blend of beans from India and Indonesia)	</td>
+                                      <td><span>Tart, roasty, blackberries	</span></td>
+                                      <td>
+                                          <div>
+                                              <div class="progress" style="height: 6px">
+                                                  <div class="progress-bar bg-success" style="width: 50%"></div>
+                                              </div>
+                                          </div>
+                                      </td>
+                                   
+                                  </tr>
+                                  <tr>
+                                      <td><img src="./images/avatar/4.jpg" class=" rounded-circle mr-3" alt=""> Giorno Soleggiato	</td>
+                                      <td>Liberica (single origin harvested in Malaysia)	</td>
+                                      <td><span>Rich, smoky, spice, ripe berries	</span></td>
+                                      <td>
+                                          <div>
+                                              <div class="progress" style="height: 6px">
+                                                  <div class="progress-bar bg-success" style="width: 50%"></div>
+                                              </div>
+                                          </div>
+                                      </td>
+                                    
+                                  
+                                  </tr>
+                                  <tr>
+                                      <td><img src="./images/avatar/5.jpg" class=" rounded-circle mr-3" alt="">Elizabeth W.</td>
+                                      <td>Montagna*	</td>
+                                      <td><span>Arabica (single origin harvested in the Blue Mountains of Jamaica)	</span></td>
+                                      <td>
+                                          <div>
+                                              <div class="progress" style="height: 6px">
+                                                  <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                              </div>
+                                          </div>
+                                      </td>
+                              
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>                        
+      </div>
+  </div>
+  </div>
+  <!-- / Table of Coffee Blednds -->
+
 
     <!-- Why Us Section -->
     <section id="why-us" class="why-us section">
@@ -415,7 +542,7 @@
     <!-- Events Section -->
     <section id="events" class="events section">
 
-      <img class="slider-bg" src="https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" data-aos="fade-in">
+      <img class="slider-bg" src="assets/img/events-bg.jpg" alt="" data-aos="fade-in">
 
       <div class="container">
 
