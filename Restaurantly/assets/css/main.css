@@ -1960,4 +1960,11 @@ section,
   -ms-overflow-style: -ms-autohiding-scrollbar; }
   .table-responsive > .table-bordered {
     border: 0; }
-  
+
+    .blend-card {
+      width:80%;
+    }
+
+    .blend-title {
+      margin-top:30px;
+    }
