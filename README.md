@@ -22,7 +22,7 @@ In this exercise, you will explore techniques for making your web pages keyboard
 
 ### Exercise 2: Semantic HTML
 
-In this exercise, you will learn how to use semantic HTML elements to improve the accessibility and structure of your web pages. Proper use of semantic HTML elements like <header>, <nav>, <main>, <section>, <article>, and <footer> to improve accessibility and SEO.
+In this exercise, you will learn how to use semantic HTML elements to improve the accessibility and structure of your web pages. Proper use of semantic HTML elements like `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, and <footer> to improve accessibility and SEO.
 
 ### Exercise 3: ARIA Roles and Attributes
 
