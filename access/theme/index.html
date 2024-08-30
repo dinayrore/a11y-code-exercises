@@ -53,9 +53,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-xs-12 col-sm-4">
-					<div class="contact-number">
+					<div class="contact-number" aria-label="Contact Number">
 						<i class="tf-ion-ios-telephone" aria-hidden="true"></i>
-						<span>0129-12323-123123</span>
+						<span aria-label="Phone Number">Call us at: <a href="tel:917-224-5383">917-224-5383</a></span>
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-12 col-sm-4">
@@ -97,7 +97,7 @@
 						</li>
 						<li class="dropdown cart-nav dropdown-slide">
 							<a href="#!" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<i class="tf-ion-android-cart" aria-hidden="true"></i> Order
+								<i class="tf-ion-android-cart" aria-hidden="true"></i> Cart
 							</a>
 							<div class="dropdown-menu cart-dropdown" role="menu">
 								<!-- Cart Item -->
@@ -227,262 +227,310 @@
 	</div>
 </section>
 
+<!-- Menu -->
 <section class="products section bg-gray" id="menu">
 	<div class="container">
 		<div class="row">
-			<div class="title text-center data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
-				<h2 >Our Menu</h2>
+			<div class="title text-center" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">
+				<h2>Our Menu</h2>
 			</div>
 		</div>
 		<div class="row">
-			
 			<div class="col-md-4">
 				<div class="product-item">
 					<div class="product-thumb">
-						<!-- <span class="bage">Americano</span> -->
-						<img class="img-responsive" src="https://images.pexels.com/photos/4195601/pexels-photo-4195601.jpeg?auto=compress&cs=tinysrgb&w=200" alt="product-img" />
+						<img class="img-responsive" src="https://images.pexels.com/photos/4195601/pexels-photo-4195601.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Americano" />
 						<div class="preview-meta">
 							<ul>
 								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<p> Edit</p>
-										<i class="tf-ion-ios-edit"> </i>
-																				
-									</span>
+									<button type="button" aria-label="Edit Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-edit"></i> Edit
+									</button>
 								</li>
-							
 							</ul>
                       	</div>
 					</div>
 					<div class="product-content">
-						<span  data-toggle="modal" data-target="#product-modal">
-						<h3> Americano </h3>
-						<h4>A shot of espresso and hot water</h4>
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
 						<p class="price">$3.00/$5.50 (single/double)</p>
-						
-						<p> Edit</p>
-						</span>
-						
+					
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h3> Americano </h3>
-						<h4><a href="product-single.html">A shot of espresso and hot water</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h3> Americano </h3>
-						<h4><a href="product-single.html">A shot of espresso and hot water</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="www.google.com" area-label="shopping cart"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h3> Americano </h3>
-						<h4><a href="product-single.html">A shot of espresso and hot water</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h3> Americano </h3>
-						<h4><a href="product-single.html">A shot of espresso and hot water</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h3> Americano </h3>
-						<h4><a href="product-single.html">A shot of espresso and hot water</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="product-item">
-					<div class="product-thumb">
-						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="product-img" />
-						<div class="preview-meta">
-							<ul>
-								<li>
-									<span  data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-								</li>
-								<li>
-			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
-								</li>
-								<li>
-									<a href="#!"><i class="tf-ion-android-cart"></i></a>
-								</li>
-							</ul>
-                      	</div>
-					</div>
-					<div class="product-content">
-						<h3> Americano </h3>
-						<h4><a href="product-single.html">A shot of espresso and hot water</a></h4>
-						<p class="price">$200</p>
-					</div>
-				</div>
-			</div>
-			
-			
-				</div>
-			</div>
-		
-		<!-- Modal -->
-		<div class="modal product-modal fade" id="product-modal">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				<i class="tf-ion-close"></i>
-			</button>
-			
-		  	<div class="modal-dialog " role="document">
-		    	<div class="modal-content">
-			      	<div class="modal-body">
-			        	<div class="row">
-			        		<div class="col-md-8 col-sm-6 col-xs-12">
-			        			<div class="modal-image">
-				        			<img class="img-responsive" src="https://images.pexels.com/photos/585753/pexels-photo-585753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="product-img" />
-			        			</div>
-			        		</div>
-			        		<div class="col-md-4 col-sm-6 col-xs-12">
-			        			<div class="product-short-details">
-			        				<h2 class="product-title">Americano</h2>
-			        				<p class="product-price">$2.00</p>
-			        				<p class="product-short-description">
-			        					Customize Below
-			        				</p>
-									<div class="form-check form-switch">
-										<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-										<label class="form-check-label" for="flexSwitchCheckDefault">Wholemilk </label>
-									  </div>
-									  <div class="form-check form-switch">
-										<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-										<label class="form-check-label" for="flexSwitchCheckDefault">Wholemilk </label>
-									  </div>
-									  <div class="form-check form-switch">
-										<input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" >
-										<label class="form-check-label" for="flexSwitchCheckDefault">Wholemilk </label>
-									  </div>
-									  <div class="form-check form-switch">
-										<input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" >
-										<label class="form-check-label" for="flexSwitchCheckDefault">Wholemilk </label>
-									  </div>
-			        				<a href="cart.html" class="btn btn-main">Add To Cart</a>
-			        			</div>
-			        		</div>
-			        	</div>
-			        </div>
-		    	</div>
-		  	</div>
-		</div><!-- /.modal -->
 
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Americano" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<button type="button" aria-label="View Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</button>
+								</li>
+								<li>
+			                        <button type="button" aria-label="Add Americano to favorites"><i class="tf-ion-ios-heart"></i></button>
+								</li>
+								<li>
+									<button type="button" aria-label="Add Americano to cart"><i class="tf-ion-android-cart"></i></button>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
+						<p class="price">$200</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Americano" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<button type="button" aria-label="View Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</button>
+								</li>
+								<li>
+			                        <button type="button" aria-label="Add Americano to favorites"><i class="tf-ion-ios-heart"></i></button>
+								</li>
+								<li>
+									<button type="button" aria-label="Add Americano to cart"><i class="tf-ion-android-cart"></i></button>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
+						<p class="price">$200</p>
+					</div>
+				</div>
+			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="https://images.pexels.com/photos/4195601/pexels-photo-4195601.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Americano" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<button type="button" aria-label="Edit Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-edit"></i> Edit
+									</button>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
+						<p class="price">$3.00/$5.50 (single/double)</p>
+					
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Americano" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<button type="button" aria-label="View Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</button>
+								</li>
+								<li>
+			                        <button type="button" aria-label="Add Americano to favorites"><i class="tf-ion-ios-heart"></i></button>
+								</li>
+								<li>
+									<button type="button" aria-label="Add Americano to cart"><i class="tf-ion-android-cart"></i></button>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
+						<p class="price">$200</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Americano" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<button type="button" aria-label="View Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</button>
+								</li>
+								<li>
+			                        <button type="button" aria-label="Add Americano to favorites"><i class="tf-ion-ios-heart"></i></button>
+								</li>
+								<li>
+									<button type="button" aria-label="Add Americano to cart"><i class="tf-ion-android-cart"></i></button>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
+						<p class="price">$200</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="https://images.pexels.com/photos/4195601/pexels-photo-4195601.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Americano" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<button type="button" aria-label="Edit Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-edit"></i> Edit
+									</button>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
+						<p class="price">$3.00/$5.50 (single/double)</p>
+					
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Americano" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<button type="button" aria-label="View Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</button>
+								</li>
+								<li>
+			                        <button type="button" aria-label="Add Americano to favorites"><i class="tf-ion-ios-heart"></i></button>
+								</li>
+								<li>
+									<button type="button" aria-label="Add Americano to cart"><i class="tf-ion-android-cart"></i></button>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
+						<p class="price">$200</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Americano" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<button type="button" aria-label="View Americano details" data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</button>
+								</li>
+								<li>
+			                        <button type="button" aria-label="Add Americano to favorites"><i class="tf-ion-ios-heart"></i></button>
+								</li>
+								<li>
+									<button type="button" aria-label="Add Americano to cart"><i class="tf-ion-android-cart"></i></button>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h3>Americano</h3>
+						<p>A shot of espresso and hot water</p>
+						<p class="price">$200</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
 	</div>
 </section>
+
+<!-- Modal -->
+<div class="modal product-modal fade" id="product-modal" tabindex="-1" role="dialog" aria-labelledby="product-modal-label" aria-hidden="true">
+	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		<i class="tf-ion-close"></i>
+	</button>
+	
+  	<div class="modal-dialog" role="document">
+    	<div class="modal-content">
+	      	<div class="modal-body">
+	        	<div class="row">
+	        		<div class="col-md-8 col-sm-6 col-xs-12">
+	        			        			
+<div class="modal-image">
+		        			<img class="img-responsive" src="https://images.pexels.com/photos/585753/pexels-photo-585753.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Americano Image" />
+	        			</div>
+	        		</div>
+	        		<div class="col-md-4 col-sm-6 col-xs-12">
+	        			<div class="product-short-details">
+	        				<h2 id="product-modal-label" class="product-title">Americano</h2>
+	        				<p class="product-price">$2.00</p>
+	        				<p class="product-short-description">
+	        					Customize Below
+	        				</p>
+							<form>
+								<div class="form-check form-switch">
+									<input class="form-check-input" type="checkbox" id="wholemilk" aria-label="Select Wholemilk">
+									<label class="form-check-label" for="wholemilk">Wholemilk</label>
+								</div>
+								<div class="form-check form-switch">
+									<input class="form-check-input" type="checkbox" id="skimmilk" checked aria-label="Select Skimmilk">
+									<label class="form-check-label" for="skimmilk">Skimmilk</label>
+								</div>
+								<div class="form-check form-switch">
+									<input class="form-check-input" type="checkbox" id="oatmilk" aria-label="Select Oatmilk">
+									<label class="form-check-label" for="oatmilk">Oatmilk</label>
+								</div>
+								<div class="form-check form-switch">
+									<input class="form-check-input" type="checkbox" id="cream" aria-label="Select Cream">
+									<label class="form-check-label" for="cream">Cream</label>
+								</div>
+							</form>
+	        				<a href="cart.html" class="btn btn-main" aria-label="Add Americano to Cart">Add To Cart</a>
+	        			</div>
+	        		</div>
+	        	</div>
+	        </div>
+    	</div>
+  	</div>
+</div>
 
 
 <!--
