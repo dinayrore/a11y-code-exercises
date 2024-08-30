@@ -80,21 +80,27 @@
   });
 
   //Table Toggle
-//   document.getElementById('toggleTableButton').addEventListener('click', function () {
-//     var tableCard = document.getElementById('coffeeTableCard');
-//     var isExpanded = this.getAttribute('aria-expanded') === 'true';
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggleTableButton = document.getElementById('toggleTableButton');
+    if (toggleTableButton) {
+        toggleTableButton.addEventListener('click', function () {
+            var tableCard = document.getElementById('coffeeTableCard');
+            var isExpanded = this.getAttribute('aria-expanded') === 'true';
 
-//     if (isExpanded) {
-//         tableCard.style.display = 'none';
-//         this.textContent = 'Show Table';
-//         this.setAttribute('aria-expanded', 'false');
-//         this.focus(); // Ensure focus returns to the button after the action
-//     } else {
-//         tableCard.style.display = 'block';
-//         this.textContent = 'Hide Table';
-//         this.setAttribute('aria-expanded', 'true');
-//         tableCard.querySelector('table').focus(); // Move focus to the table for screen reader users
-//     }
+            if (isExpanded) {
+                tableCard.style.display = 'none';
+                this.textContent = 'Show Table';
+                this.setAttribute('aria-expanded', 'false');
+                this.focus(); // Ensure focus returns to the button after the action
+            } else {
+                tableCard.style.display = 'block';
+                this.textContent = 'Hide Table';
+                this.setAttribute('aria-expanded', 'true');
+                tableCard.querySelector('table').focus(); // Move focus to the table for screen reader users
+            }
+        });
+    }
+});
 // });
 
 //Form Validation
