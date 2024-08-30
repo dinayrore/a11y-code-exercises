@@ -80,23 +80,99 @@
   });
 
   //Table Toggle
-  document.getElementById('toggleTableButton').addEventListener('click', function () {
-    var tableCard = document.getElementById('coffeeTableCard');
-    var isExpanded = this.getAttribute('aria-expanded') === 'true';
+//   document.getElementById('toggleTableButton').addEventListener('click', function () {
+//     var tableCard = document.getElementById('coffeeTableCard');
+//     var isExpanded = this.getAttribute('aria-expanded') === 'true';
 
-    if (isExpanded) {
-        tableCard.style.display = 'none';
-        this.textContent = 'Show Table';
-        this.setAttribute('aria-expanded', 'false');
-        this.focus(); // Ensure focus returns to the button after the action
-    } else {
-        tableCard.style.display = 'block';
-        this.textContent = 'Hide Table';
-        this.setAttribute('aria-expanded', 'true');
-        tableCard.querySelector('table').focus(); // Move focus to the table for screen reader users
-    }
+//     if (isExpanded) {
+//         tableCard.style.display = 'none';
+//         this.textContent = 'Show Table';
+//         this.setAttribute('aria-expanded', 'false');
+//         this.focus(); // Ensure focus returns to the button after the action
+//     } else {
+//         tableCard.style.display = 'block';
+//         this.textContent = 'Hide Table';
+//         this.setAttribute('aria-expanded', 'true');
+//         tableCard.querySelector('table').focus(); // Move focus to the table for screen reader users
+//     }
+// });
+
+//Form Validation
+document.getElementById('place-order-btn').addEventListener('click', function(event) {
+  event.preventDefault();
+  let isValid = true;
+
+  // Clear previous errors
+  document.querySelectorAll('.text-danger').forEach(function(el) {
+     el.textContent = '';
+  });
+
+  // Validate Full Name
+  const fullName = document.getElementById('full_name');
+  if (fullName.value.trim() === '') {
+     isValid = false;
+     document.getElementById('name-error').textContent = 'Please enter your full name.';
+  }
+
+  // Validate Address
+  const address = document.getElementById('user_address');
+  if (address.value.trim() === '') {
+     isValid = false;
+     document.getElementById('address-error').textContent = 'Please enter your address.';
+  }
+
+  // Validate Zip Code (5 digits only)
+  const zipCode = document.getElementById('user_post_code');
+  const zipCodeRegex = /^\d{5}$/;
+  if (!zipCodeRegex.test(zipCode.value.trim())) {
+     isValid = false;
+     document.getElementById('zip-error').textContent = 'Please enter a valid 5-digit zip code.';
+  }
+
+  // Validate City
+  const city = document.getElementById('user_city');
+  if (city.value.trim() === '') {
+     isValid = false;
+     document.getElementById('city-error').textContent = 'Please enter your city.';
+  }
+
+  // Validate Country
+  const country = document.getElementById('user_country');
+  if (country.value.trim() === '') {
+     isValid = false;
+     document.getElementById('country-error').textContent = 'Please enter your country.';
+  }
+
+  // Validate Card Number
+  const cardNumber = document.getElementById('card-number');
+  if (cardNumber.value.trim() === '') {
+     isValid = false;
+     document.getElementById('card-number-error').textContent = 'Please enter your card number.';
+  }
+
+  // Validate Card Expiry (MM/YY format)
+  const cardExpiry = document.getElementById('card-expiry');
+  const cardExpiryRegex = /^\d{2}\/\d{2}$/;
+  if (!cardExpiryRegex.test(cardExpiry.value.trim())) {
+     isValid = false;
+     document.getElementById('card-expiry-error').textContent = 'Please enter a valid expiry date (MM/YY).';
+  }
+
+  // Validate CVC
+  const cardCvc = document.getElementById('card-cvc');
+  if (cardCvc.value.trim() === '') {
+     isValid = false;
+     document.getElementById('card-cvc-error').textContent = 'Please enter the card CVC code.';
+  }
+
+  if (isValid) {
+     // Submit the form if valid
+     document.getElementById('billing-form').submit();
+     document.getElementById('payment-form').submit();
+  } else {
+     document.getElementById('form-error').textContent = 'Please fix the errors above before submitting.';
+  }
 });
-
   //Hero Slider
   $('.hero-slider').slick({
     // autoplay: true,
