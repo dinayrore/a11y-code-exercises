@@ -205,116 +205,125 @@
 				<div class="dashboard-wrapper user-dashboard">
 					<div class="container section-title blend-title" data-aos="fade-up">
 </div><!-- End Section Title -->
+
 <div class="container-fluid mt-3 blend-card">
     <div class="row">
-      <div class="col-lg-12">
-          <div class="card">
-              <div class="card-body">
-                  <div class="active-member">
-                      <div class="table-responsive">
-                          <table class="table table-xs mb-0">
-                              <thead>
-                                  <tr>
-                                      <th>Name</th>
-                                      <th>Origin</th>
-                                      <th>Taste Profile</th>
-                                      <th>Roast</th>
-                                  </tr>
-                              </thead>
-                              <tbody>
-                                  <tr>
-                                      <td><img src="./images/avatar/1.jpg" class=" rounded-circle mr-3" alt="">Bellissimi Fiori</td>
-                                      <td>Arabica (blend of beans harvested in Guatemala and Brazil)</td>
-                                      <td>
-                                          <span>Bright, citrusy, floral, apple, acidic</span>
-                                      </td>
-                                      <td>
-                                          <div>
-                                              <div class="progress" style="height: 6px">
-                                                  <div class="progress-bar bg-success" style="width: 50%"></div>
-                                              </div>
-                                          </div>
-                                      </td>
-                                  </tr>
-                                  <tr>
-                                      <td><img src="./images/avatar/2.jpg" class=" rounded-circle mr-3" alt="">Campagna Caffè	</td>
-                                      <td>Arabica (single origin harvested in Ethiopia)	</td>
-                                      <td><span>Chocolaty, sweet, caramel	</span></td>
-                                      <td>
-                                          <div>
-                                              <div class="progress" style="height: 6px">
-                                                  <div class="progress-bar bg-success" style="width: 50%"></div>
-                                              </div>
-                                          </div>
-                                      </td>
-                                    
-                                  </tr>
-                                  <tr>
-                                      <td><img src="./images/avatar/3.jpg" class=" rounded-circle mr-3" alt="">Cuore Forte	</td>
-                                      <td>Robusta (blend of beans harvested in Brazil and Indonesia)	</td>
-                                      <td><span>Dark chocolate, almonds, whiskey	</span></td>
-                                      <td>
-                                          <div>
-                                              <div class="progress" style="height: 6px">
-                                                  <div class="progress-bar bg-warning" style="width: 50%"></div>
-                                              </div>
-                                          </div>
-                                      </td>
-                                  
-                                  </tr>
-                                  <tr>
-                                      <td><img src="./images/avatar/6.jpg" class=" rounded-circle mr-3" alt=""> Eleganza</td>
-                                      <td>Excelsa (blend of beans from India and Indonesia)	</td>
-                                      <td><span>Tart, roasty, blackberries	</span></td>
-                                      <td>
-                                          <div>
-                                              <div class="progress" style="height: 6px">
-                                                  <div class="progress-bar bg-success" style="width: 50%"></div>
-                                              </div>
-                                          </div>
-                                      </td>
-                                   
-                                  </tr>
-                                  <tr>
-                                      <td><img src="./images/avatar/4.jpg" class=" rounded-circle mr-3" alt=""> Giorno Soleggiato	</td>
-                                      <td>Liberica (single origin harvested in Malaysia)	</td>
-                                      <td><span>Rich, smoky, spice, ripe berries	</span></td>
-                                      <td>
-                                          <div>
-                                              <div class="progress" style="height: 6px">
-                                                  <div class="progress-bar bg-success" style="width: 50%"></div>
-                                              </div>
-                                          </div>
-                                      </td>
-                                    
-                                  
-                                  </tr>
-                                  <tr>
-                                      <td><img src="./images/avatar/5.jpg" class=" rounded-circle mr-3" alt="">Montagna*</td>
-                                      <td>Arabica (single origin harvested in the Blue Mountains of Jamaica)	</td>
-                                      <td><span>Good</span></td>
-                                      <td>
-                                          <div>
-                                              <div class="progress" style="height: 6px">
-                                                  <div class="progress-bar bg-warning" style="width: 50%"></div>
-                                              </div>
-                                          </div>
-                                      </td>
-                              
-                                  </tr>
-                              </tbody>
-                          </table>
-                        
-                      </div>
-                  </div>
-              </div>
-
-          </div>                        
-      </div>
-      <p> *Montagna available from September to February only </p>
-
-  </div>
-  </div>
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-body">
+                    <h2 id="coffee-blends-title" class="sr-only">Coffee Blends Information</h2>
+                    <div class="active-member">
+                        <div class="table-responsive">
+                            <table class="table table-xs mb-0" aria-labelledby="coffee-blends-title">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Origin</th>
+                                        <th scope="col">Taste Profile</th>
+                                        <th scope="col">Roast Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="./images/avatar/1.jpg" class="rounded-circle mr-3" alt="Icon representing Bellissimi Fiori">
+                                            Bellissimi Fiori
+                                        </td>
+                                        <td>Arabica (blend of beans harvested in Guatemala and Brazil)</td>
+                                        <td><span>Bright, citrusy, floral, apple, acidic</span></td>
+                                        <td>
+                                            <div aria-label="Roast level: 50% light">
+                                                <div class="progress" style="height: 6px">
+                                                    <div class="progress-bar bg-success" style="width: 50%"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./images/avatar/2.jpg" class="rounded-circle mr-3" alt="Icon representing Campagna Caffè">
+                                            Campagna Caffè
+                                        </td>
+                                        <td>Arabica (single origin harvested in Ethiopia)</td>
+                                        <td><span>Chocolaty, sweet, caramel</span></td>
+                                        <td>
+                                            <div aria-label="Roast level: 50% light">
+                                                <div class="progress" style="height: 6px">
+                                                    <div class="progress-bar bg-success" style="width: 50%"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./images/avatar/3.jpg" class="rounded-circle mr-3" alt="Icon representing Cuore Forte">
+                                            Cuore Forte
+                                        </td>
+                                        <td>Robusta (blend of beans harvested in Brazil and Indonesia)</td>
+                                        <td><span>Dark chocolate, almonds, whiskey</span></td>
+                                        <td>
+                                            <div aria-label="Roast level: 50% medium">
+                                                <div class="progress" style="height: 6px">
+                                                    <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./images/avatar/6.jpg" class="rounded-circle mr-3" alt="Icon representing Eleganza">
+                                            Eleganza
+                                        </td>
+                                        <td>Excelsa (blend of beans from India and Indonesia)</td>
+                                        <td><span>Tart, roasty, blackberries</span></td>
+                                        <td>
+                                            <div aria-label="Roast level: 50% light">
+                                                <div class="progress" style="height: 6px">
+                                                    <div class="progress-bar bg-success" style="width: 50%"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./images/avatar/4.jpg" class="rounded-circle mr-3" alt="Icon representing Giorno Soleggiato">
+                                            Giorno Soleggiato
+                                        </td>
+                                        <td>Liberica (single origin harvested in Malaysia)</td>
+                                        <td><span>Rich, smoky, spice, ripe berries</span></td>
+                                        <td>
+                                            <div aria-label="Roast level: 50% light">
+                                                <div class="progress" style="height: 6px">
+                                                    <div class="progress-bar bg-success" style="width: 50%"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="./images/avatar/5.jpg" class="rounded-circle mr-3" alt="Icon representing Montagna">
+                                            Montagna*
+                                        </td>
+                                        <td>Arabica (single origin harvested in the Blue Mountains of Jamaica)</td>
+                                        <td><span>Good</span></td>
+                                        <td>
+                                            <div aria-label="Roast level: 50% medium">
+                                                <div class="progress" style="height: 6px">
+                                                    <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <p id="availability-note" aria-label="Montagna availability note">*Montagna available from September to February only</p>
+            </div>
+        </div>
+    </div>
+</div>
 				</div>
 			</div>
 		</div>
