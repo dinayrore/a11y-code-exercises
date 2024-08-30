@@ -49,120 +49,103 @@
 
 <body id="body">
 
-<!-- Start Top Header Bar -->
-<section class="top-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-xs-12 col-sm-4">
-				<div class="contact-number">
-					<i class="tf-ion-ios-telephone"></i>
-					<span>0129- 12323-123123</span>
+	<section class="top-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-12 col-sm-4">
+					<div class="contact-number" aria-label="Contact Number">
+						<i class="tf-ion-ios-telephone" aria-hidden="true"></i>
+						<span aria-label="Phone Number">Call us at: <a href="tel:917-224-5383">917-224-5383</a></span>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-4 col-xs-12 col-sm-4">
-				<!-- Site Logo -->
-				<div class="logo text-center">
-					<a href="index.html">
-						<!-- replace logo here -->
-						<svg width="135px" height="29px" viewBox="0 0 155 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
-							xmlns:xlink="http://www.w3.org/1999/xlink">
-							<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="40"
-								font-family="AustinBold, Austin" font-weight="bold">
-								<g id="Group" transform="translate(-108.000000, -297.000000)" fill="#000000">
-									<text id="AVIATO">
-										<h1>Inclusive Perk </h1>
-									</text>
+				<div class="col-md-4 col-xs-12 col-sm-4">
+					<!-- Site Logo -->
+					<div class="logo text-center">
+						<a href="index.html" aria-label="Home">
+							<!-- replace logo here -->
+							<svg width="135px" height="29px" viewBox="0 0 155 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="logo-title">
+								<title id="logo-title">Inclusive Perk Logo</title>
+								<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="40"
+									font-family="AustinBold, Austin" font-weight="bold">
+									<g id="Group" transform="translate(-108.000000, -297.000000)" fill="#000000">
+										<text id="AVIATO">
+											<h1>Inclusive Perk</h1>
+										</text>
+									</g>
 								</g>
-							</g>
-						</svg>
-					</a>
+							</svg>
+						</a>
+					</div>
 				</div>
-			</div>
-
-			
-			<div class="col-md-4 col-xs-12 col-sm-4">
 				
-				<!-- Cart -->
-				<ul class="top-menu text-right list-inline">
-					<li class="dropdown cart-nav dropdown-slide">
+				<div class="col-md-4 col-xs-12 col-sm-4">
+					
+					<!-- Cart -->
+					<ul class="top-menu text-right list-inline">
 						<li>
-							<p><a href="index.html">Home </a></p>
+							<p><a href="index.html">Home</a></p>
 						</li>
 						<li>
 							<p><a href="about.html">About</a></p>
 						</li>
 						<li>
-							<p><a href="index.html#menu">Menu</a></p>
+							<p><a href="shop.html">Menu</a></p>
 						</li>
 						<li>
-							<p><a href="blog-single.html">Our Sources</a></p>
+							<p><a href="blog-single.html">Sources</a></p>
 						</li>
-					
-						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
-							class="tf-ion-android-cart"></i>Order</a>
-					<div class="dropdown-menu cart-dropdown">
-						<!-- Cart Item -->
-						<div class="media">
-							<a class="pull-left" href="#!">
-								<img class="media-object" src="https://images.pexels.com/photos/4195601/pexels-photo-4195601.jpeg?auto=compress&cs=tinysrgb&w=200" alt="image" />
+						<li class="dropdown cart-nav dropdown-slide">
+							<a href="#!" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="tf-ion-android-cart" aria-hidden="true"></i> Cart
 							</a>
-							<div class="media-body">
-								<h4 class="media-heading"><a href="#!">Americano</a></h4>
-								<div class="cart-price">
-									<span>1 x</span>
-									<span>$2.00</span>
+							<div class="dropdown-menu cart-dropdown" role="menu">
+								<!-- Cart Item -->
+								<div class="media">
+									<a class="pull-left" href="#!">
+										<img class="media-object" src="https://images.pexels.com/photos/4195601/pexels-photo-4195601.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Americano" />
+									</a>
+									<div class="media-body">
+										<h4 class="media-heading"><a href="#!">Americano</a></h4>
+										<div class="cart-price">
+											<span>1 x</span>
+											<span>$2.00</span>
+										</div>
+										<h5><strong>$2.00</strong></h5>
+									</div>
+									<a href="#!" class="remove" aria-label="Remove Americano from cart"><i class="tf-ion-close" aria-hidden="true"></i></a>
+								</div><!-- / Cart Item -->
+								<!-- Cart Item -->
+								<div class="media">
+									<a class="pull-left" href="#!">
+										<img class="media-object" src="https://images.pexels.com/photos/4195601/pexels-photo-4195601.jpeg?auto=compress&cs=tinysrgb&w=200" alt="Diet Coke" />
+									</a>
+									<div class="media-body">
+										<h4 class="media-heading"><a href="#!">Diet Coke</a></h4>
+										<div class="cart-price">
+											<span>1 x</span>
+											<span>$4.00</span>
+										</div>
+										<h5><strong>$4.00</strong></h5>
+									</div>
+									<a href="#!" class="remove" aria-label="Remove Diet Coke from cart"><i class="tf-ion-close" aria-hidden="true"></i></a>
+								</div><!-- / Cart Item -->
+	
+								<div class="cart-summary">
+									<span>Total</span>
+									<span class="total-price">$1799.00</span>
 								</div>
-								<h5><strong>$2.00</strong></h5>
+								<ul class="text-center cart-buttons">
+									<li><a href="cart.html" class="btn btn-small">View Cart</a></li>
+									<li><a href="checkout.html" class="btn btn-small btn-solid-border">Checkout</a></li>
+								</ul>
 							</div>
-							<a href="#!" class="remove"><i class="tf-ion-close"></i></a>
-						</div><!-- / Cart Item -->
-						<!-- Cart Item -->
-						<div class="media">
-							<a class="pull-left" href="#!">
-								<img class="media-object" src="https://images.pexels.com/photos/4195601/pexels-photo-4195601.jpeg?auto=compress&cs=tinysrgb&w=200" alt="image" />
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading"><a href="#!">Diet Coke</a></h4>
-								<div class="cart-price">
-									<span>1 x</span>
-									<span>$4.00</span>
-								</div>
-								<h5><strong>$4.00</strong></h5>
-							</div>
-							<a href="#!" class="remove"><i class="tf-ion-close"></i></a>
-						</div><!-- / Cart Item -->
-
-						<div class="cart-summary">
-							<span>Total</span>
-							<span class="total-price">$1799.00</span>
-						</div>
-						<ul class="text-center cart-buttons">
-							<li><a href="cart.html" class="btn btn-small">View Cart</a></li>
-							<li><a href="checkout.html" class="btn btn-small btn-solid-border">Checkout</a></li>
-						</ul>
-					</div>
-					</li><!-- / Cart -->
-
-					<!-- Search -->
-					<!-- <li class="dropdown search dropdown-slide">
-						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
-								class="tf-ion-ios-search-strong"></i> Search</a>
-						<ul class="dropdown-menu search-dropdown">
-							<li>
-								<form action="post"><input type="search" class="form-control" placeholder="Search..."></form>
-							</li>
-						</ul>
-					</li> -->
-					<!-- / Search -->
-
-					<!-- Languages -->
-					<!-- / Languages -->
-
-				</ul><!-- / .nav .navbar-nav .navbar-right -->
+						</li><!-- / Cart -->
+					</ul><!-- / .nav .navbar-nav .navbar-right -->
+				</div>
 			</div>
 		</div>
-	</div>
-</section><!-- End Top Header Bar -->
+	</section><!-- End Top Header Bar -->
 
 <section class="page-header">
 	<div class="container">
