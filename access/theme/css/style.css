@@ -2427,3 +2427,34 @@ input:focus {
 .dropdown-toggle:focus {
     outline: 2px solid #0056b3; /* Ensure focus on dropdown toggles */
 }
+
+.special-title {
+  color: #1a1a1a; /* Dark gray for high contrast */
+  font-size: 2rem; /* Adjust size as needed */
+}
+
+.category-box .content {
+  background-color: rgb(246 246 246 / 83%); /* White background for strong contrast */
+  padding: 15px;
+}
+
+.content-heading {
+  color: #1a1a1a; /* Dark gray for high contrast */
+  font-size: 1.5rem; /* Adjust size as needed */
+}
+
+.content-text {
+  color: #333333; /* Medium gray for sufficient contrast */
+  font-size: 1rem; /* Adjust size as needed */
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
