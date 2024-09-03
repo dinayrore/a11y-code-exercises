@@ -2321,6 +2321,8 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 .footer .copyright-text {
   margin-top: 20px;
 }
+/* // when ready to make all of these inaccessible, edit here */
+/* specifically 2d */
 
 .copyright-text a {
   color: #000;
