@@ -2462,5 +2462,13 @@ img {
 }
 
 .image-container img {
-  width:60%;
+  width:40%;
+}
+
+.listexercise a {
+  color:blue;
+}
+
+.card  {
+  padding: 20px !important;
 }
